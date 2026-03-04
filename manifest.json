@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Photinder",
+  "version": "1.0.0",
+  "description": "Swipe through your Google Photos — keep or delete, one by one.",
+  "permissions": ["activeTab", "storage"],
+  "action": {},
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://photos.google.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

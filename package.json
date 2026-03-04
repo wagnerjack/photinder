@@ -1,0 +1,18 @@
+{
+  "name": "photinder",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Swipe through your Google Photos — keep or delete, one by one.",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "globals": "^16.0.0",
+    "prettier": "^3.8.1"
+  }
+}
