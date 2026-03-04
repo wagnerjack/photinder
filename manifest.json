@@ -4,7 +4,12 @@
   "version": "1.0.0",
   "description": "Swipe through your Google Photos — keep or delete, one by one.",
   "permissions": ["activeTab", "storage"],
-  "action": {},
+  "icons": {
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_icon": "icons/icon128.png"
+  },
   "background": {
     "service_worker": "background.js"
   },

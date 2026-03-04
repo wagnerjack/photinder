@@ -1,3 +1,5 @@
+![Icon](./icons/icon128.png)
+
 # Photinder
 
 A Chrome extension for swiping through your Google Photos — **Keep** or **Delete**, one by one. Photos marked for deletion get selected in Google Photos so you can trash them all at once.
