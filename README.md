@@ -2,6 +2,8 @@
 
 A Chrome extension for swiping through your Google Photos — **Keep** or **Delete**, one by one. Photos marked for deletion get selected in Google Photos so you can trash them all at once.
 
+![Demo](./docs/demo.gif "Photinder Demo")
+
 ## How It Works
 
 1. Go to [photos.google.com](https://photos.google.com) (library, album, or search results)
